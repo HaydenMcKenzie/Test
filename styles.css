@@ -1,0 +1,489 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  #nav{
+      float:right;
+      text-align: right;
+      background: #3B3B3C;
+      position: fixed;
+      width: 100%;
+      height:100px;
+      padding: 5px;
+      padding-top: 20px;
+
+  }  
+  #filler {
+    float:left; 
+    background: blue;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+  }
+  
+  #header {
+      float:left; 
+      background: #3B3B3C;
+      width: 100%;
+      height: 4300px;
+      padding: 40px;
+      padding-top: 10px;
+
+  }
+  #greetings {
+    float:left; 
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 1100px;
+    padding: 100px;
+    padding-top: 1px;
+    text-align: left;
+    font-size: 100px;
+    color: white;
+
+  }
+  #handpic{
+    float: left;
+    padding: 600px;
+  }
+  #aboutme{
+    float: left;
+    background: #3B3B3C;
+    width: 60%;
+    height: 500px;
+    font-size: 80px;
+    padding: 5%;
+    color: white; 
+    font-weight: bold;
+  }
+  #aboutmepic{
+    float: right;
+    background: #3B3B3C; /*pink*/
+    width: 40%;
+    height: 600px;
+    font-size: 80px;
+    padding-top: 180px;
+    color: white; 
+    font-weight: bold;
+  }
+  #student{
+    float: left;
+    background: #3B3B3C; /*white*/
+    width: 60%;
+    height: 100px;
+    font-size: 80px;
+    padding-left: 5%;
+    margin-top: 0;
+    padding-top: 0;
+    color: white; 
+    font-weight: bold;
+  }
+  #studentemail{
+    float: left;
+    background: #3B3B3C; /*pink*/
+    width: 60%;
+    height: 100px;
+    font-size: 80px;
+    padding-left: 5%;
+    margin-top: 0;
+    padding-top: 0;
+    color: white; 
+    font-weight: bold;
+  }
+  #nationality{
+    float: left;
+    background: #3B3B3C; /*blue*/
+    width: 100%;
+    height: 100px;
+    font-size: 80px;
+    padding-left: 5%;
+    margin-top: 0;
+    padding-top: 0;
+    color: white; 
+    font-weight: bold;
+  }
+  #fact{
+    float: left;
+    background: #3B3B3C; /*red*/
+    width: 22%;
+    height: 200px;
+    font-size: 80px;
+    padding-left: 5%;
+    margin-top: 0;
+    padding-top: 0;
+    color: white; 
+    font-weight: bold;
+  }
+  #funfact{
+    float: left;
+    background: #3B3B3C; /*purple*/
+    width: 55%;
+    height: 400px;
+    font-size: 80px;
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+    color: white; 
+    font-weight: bold;
+  }
+  .studentid{
+    margin-top: 15px;
+  }
+  #ffmargin{
+    margin-top: 15px;
+    padding: 0px;
+  }
+  
+  #ITint{
+    float: left;
+    background: #3B3B3C;
+    width: 75%;
+    height: 2000px;
+    font-size: 80px;
+    padding: 5%;
+    color: white; 
+    font-weight: bold;
+  }
+
+  #dreamJob{
+    float: left;
+    background: white;
+    width: 100%;
+    height: 3650px;
+    padding: 40px;
+    padding-top: 1px;
+  }
+  #djt{
+    float: left;
+    background: white; /*Red*/
+    width: 75%;
+    height: 330px;
+    font-size: 100px;
+    color: #3B3B3C;
+    padding-left: 5%;
+    padding-top: 80px;
+  }
+  .ltt{
+    line-height: 1rem;
+  }
+  #box1{
+    float:left;
+    background: white; /*Orange*/
+    width: 50%;
+    height: 680px;
+    font-size: 36px;
+    padding-top: 0%;
+  }
+  #box2{
+    float:right;
+    background: white; /*Violet*/
+    width: 50%;
+    margin-top: 20px;
+    height: 560px;
+    padding-top: 10px;
+  }
+  #lineH{
+    line-height: 1rem;
+  }
+  #box3{
+    float:left;
+    background: white; /*lawngreen*/
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    padding-top: 0;
+    font-size: 36px;
+  }
+  .lt{
+    margin-top: 1;
+  }
+  #currskil{
+    float:left;
+    background: white; /*firebrick*/
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    padding-top: 0;
+  }
+  #lttt{
+    line-height: 1rem;
+  }
+  #box4{
+    float:left;
+    background: white; /*aqua*/
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    padding-top: 0;
+    font-size: 36px;
+    color: #3B3B3C;
+  }
+  #mar{
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+  #ObtainQual{
+    float:left;
+    background: white; /*Olive*/
+    width: 1300px;
+    height: 600px;
+    padding: 0;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  #mar2{
+    padding-top: 60px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    line-height: 1rem;
+  }
+  #box5{
+    float:left;
+    background: white; /*aqua*/
+    width: 75%;
+    height: 300px;
+    padding: 0;
+    padding-top: 0;
+    color: #3B3B3C;
+    line-height: 1rem;
+  }
+  #box6{
+    float:left;
+    background: white; /*aqua*/
+    width: 85%;
+    height: 315px;
+    padding: 0;
+    padding-left: 0px;
+    margin-top: 0px;
+    color: #3B3B3C;
+  }
+
+  #box6-2{
+    float: left;
+    background: white; /*brown*/
+    width: 475px;
+    height: 550px;
+    padding-right: 10px;
+  }
+  #box6-3{
+    float: right;
+    background: white; /*wheat*/
+    width: 525px;
+    height: 500px;
+  }
+  #box6-4{
+    float: left;
+    background: white; /*wheat*/
+    width: 1300px;
+    height: 400px;
+    font-size: 40px;
+  }
+  #box6-4font{
+    color: #3B3B3C;
+    margin-top: 5px;
+  }
+
+  #PerPro{
+    float: left;
+    background: #3B3B3C;
+    width: 100%;
+    height: 620px;
+    padding: 40px;
+    padding-top: 1px;
+  }
+  #headpro{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 250px;
+    font-size: 60px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+  #headprotext{
+    color: white;
+    margin-top: 150px;
+  }
+
+  #textpro{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 620px;
+    font-size: 40px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+
+  #MyProject{
+    float: left;
+    background: #3B3B3C;
+    width: 100%;
+    height: 6200px;
+    padding: 40px;
+    padding-top: 1px;
+  }
+  #myproc{
+    padding-left: 60px;
+    padding-top: 80px;
+    color: white;
+    font-size: 82px;
+  }
+  #ovpro{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 100px;
+    font-size: 60px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+  #ovtext{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 75%;
+    height: 620px;
+    font-size: 40px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+
+  #motivation{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 120px;
+    font-size: 60px;
+    padding: 60px;
+    padding-top: 20px;
+    color: white;
+  }
+  #motivationtext{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 75%;
+    height: 800px;
+    font-size: 40px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+
+  #Description{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 120px;
+    font-size: 60px;
+    padding: 60px;
+    padding-top: 20px;
+    color: white;
+  }
+  #Desctext{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 75%;
+    height: 1570px;
+    font-size: 30px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+  #ToolsTech{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 120px;
+    font-size: 60px;
+    padding: 60px;
+    padding-top: 20px;
+    color: white;
+  }
+  #TTText{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 75%;
+    height: 750px;
+    font-size: 40px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+  #SkillsNeeded{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 120px;
+    font-size: 60px;
+    padding: 60px;
+    padding-top: 20px;
+    color: white;
+  }
+  #SkillsText{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 75%;
+    height: 650px;
+    font-size: 40px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+  #ifsucc{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 100%;
+    height: 120px;
+    font-size: 60px;
+    padding: 60px;
+    padding-top: 20px;
+    color: white;
+  }
+  #ifsucctext{
+    float: left;
+    background: #3B3B3C; /*#3B3B3C*/
+    width: 75%;
+    height: 650px;
+    font-size: 40px;
+    padding: 60px;
+    padding-top: 1px;
+    color: white;
+  }
+
+  u{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+  ul.nav {
+    padding-left: 0px;
+    background-color: #3B3B3C;
+    text-align: right;
+    padding-right: 100px;
+  }
+  ul.nav > li {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  ul.nav > li:hover {
+    background-color: #4C4C4C;
+  }
+  ul.nav > li > a {
+    color: white;
+    text-decoration: none;
+  }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  
+  
